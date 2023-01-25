@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu-bar{
+    margin: 10px;
+}
+#logo{
+    position: relative;
+    width: 150px;
+    height: 55px;
+}
+#search{
+    position: relative;
+    width: 25px;
+    height: 25px;
+   margin-left: 30px;
+}
+#search-bar{
+    margin: 20px;
+    width:900px ;
+    border-style: hidden;
+}
+#noti{
+    margin: 10px;
+    margin-left: 100px;
+}
+#profile{
+    margin: 10px;
+}
+#down-arrow{
+    margin: 10px;
+}
+#sidebar{
+    margin: 15px;
+}
+.sidebar-img{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    margin: 15px;
+}
+.sidebar-text{
+    margin: 10px;
+}
+
+#active{
+   background-color: #FFF3F4;
+   height: 50px;
+   width: 225px;
+
+}
+#dashboard{
+    color: red;
+    z-index: 1;
+}
