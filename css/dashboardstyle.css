@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
 }
+.container{
+    display: flex;
+    max-width: 100%;
+}
 #menu-bar{
-    margin: 10px;
+    margin: 15px;
 }
 #logo{
     position: relative;
@@ -29,10 +33,10 @@
     margin: 10px;
 }
 #down-arrow{
-    margin: 10px;
+    margin: 0px;
 }
-#sidebar{
-    margin: 15px;
+.sidebar{
+    margin: 1px;
 }
 .sidebar-img{
     position: relative;
@@ -54,3 +58,204 @@
     color: red;
     z-index: 1;
 }
+#main-dashboard{
+    background-color: #fafbfb;
+    height: 100%;
+    width: 100%;
+    margin-left: 15px;
+}
+#heading{
+    margin: 10px;
+}
+.feature{
+    display: flex;
+}
+.feature-item{
+    display: flex;
+    height: 100px;
+    width: 210px;
+    margin: 22px;
+    background-color: white;
+}
+.feature-img{
+    height: 35px;
+    width: 35px;
+    margin: 15px;
+    margin-top: 25px;
+}
+.feature-no{
+    font-weight: 700;
+    font-size: 22px;
+    margin: 15px;
+}
+.feature-text{
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.sales-group{
+    margin: 20px;
+    display: flex;
+}
+.sales-graph{
+    width: 800px;
+    height: 400px;
+    background-color: white;
+}
+ .sales-heading p{
+    float: left;
+}
+.sales-heading div{
+    float: right;
+    display: flex;
+} 
+.interval{
+    margin-top: 19px;
+    margin-left: 14px;
+    color: #ADADAD;
+    font-size: 15px;
+}
+.active-interval{
+    margin-top: 19px;
+    margin-left: 14px;
+    margin-right: 25px;
+    color: #C8242F;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.sale{
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 15px ;
+}
+#graph-img{
+    margin: 20px;
+}
+.sales-pie-graph{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin-left: 30px;
+}
+.pie-heading{
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 15px ;
+    height: 20px;
+}
+#pie-chart{
+    width: 270px;
+    height: 270px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.dot-group{
+    display: flex;
+}
+.dot-group span{
+    margin-top: 5px;
+    margin-left: 40px;
+  }
+.us-dot {
+  height: 18px;
+  width: 18px;
+  background-color: #C8242F;
+  border-radius: 50%;
+  display: inline-block;
+}
+.canada-dot {
+    height: 18px;
+    width: 18px;
+    background-color: #A2B86C;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 15px;
+  }
+  .russia-dot {
+    height: 18px;
+    width: 18px;
+    background-color: #F16C20;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .india-dot {
+    height: 18px;
+    width: 18px;
+    background-color: #EBC844;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 160px !important;
+  }
+  .dot-group label{
+    font-size: 15px;
+  }
+.invoice-section{
+    background-color: white;
+    margin: 20px;
+}
+.invoice-heading{
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 15px ;
+}
+.view{
+    float: right;
+    color: #C8242F;
+    font-size: 13px;
+    margin: 10px;
+}
+.invoice{
+    float: left;
+}
+th{
+    color: #ADADAD;
+}
+td{
+    color: #3E3E3E;
+    font-size: 15px;
+}
+.paid{
+    background-color: #EBFFEF !important;
+    color:#3CDD5F; 
+    margin: 3px;
+    padding: 3px;
+}
+.pending{
+    color: #BABABA;
+    background-color:#F8F8F8 !important; 
+    margin: 3px;
+    padding: 3px;
+}
+.failed{
+    color: #FF4545;
+    background-color: #FFF5F5 !important;
+    margin: 3px;
+    padding: 3px;
+}
+tr{
+    border-bottom: #ADADAD;
+}
+
+.table{
+    margin-left: 28px;
+    width: 1173px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
