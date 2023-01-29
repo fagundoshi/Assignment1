@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+        
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,99 +13,73 @@
     </head>
     <body>
             <div class="navbar">
-                <div class="logo">
-                    <div class="menuicon">
-                        <img src="images/menu-bar.svg">
-                    </div>
+                <div class="header">
 
-                    <div class="companylogo">
-                        <img src="images/logo.svg" height="30px" width="142px">
-
-                    </div>
+                    <img src="/images/menu-bar.svg" alt="menu-bar" id="menu-bar">
+                    <img src="/images/logo.svg" alt="logo" id="logo">
+                    <img src="/images/search-icon.svg" alt="search" id="search">
+                    <input type="text" placeholder="Search..." id="search-bar">
+                    <img src="/images/notification-icon.svg" alt="notification" id="noti">
+                    <img src="/images/profile.png" alt="profile" id="profile">
+                    <label>John Doe</label>
+                    <img src="/images/downward-arrow.svg" id="down-arrow">
                 </div>
-                <div class="searchbar">
-                    <div class="searchicon">
-                        <img src="images/search-icon.svg" height="20px" width="20px">
-                    </div>
-                    <div class="searchspace">
-                        <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-                    </div>
 
                 </div>
-                <div class="userprof">
-                    <div class="bellicon">
-                        <img src="images/notification-icon.svg">
+                <div class="container">
+                    <div class="sidebar">
+                        <div>
+                            <img src="/images/dashboard-default.svg" alt="dashboard" class="sidebar-img">
+                            <label class="sidebar-text">Dashboard</label>
+                        </div>
+                        <div id="active" height="20px" width="70px">
+                            <img src="/images/graph-active.svg" alt="Analysis" class="sidebar-img">
+                            <label class="sidebar-text">Analysis</label>
+                        </div>
+                        <div>
+                            <img src="/images/inbox-default.svg" alt="Inbox" class="sidebar-img">
+                            <label class="sidebar-text">Inbox</label>
+                        </div>
+                        <div>
+                            <img src="/images/clock-default.svg" alt="History" class="sidebar-img">
+                            <label class="sidebar-text">History</label>
+                        </div>
+                        <div>
+                            <img src="/images/user-default.svg" alt="Users" class="sidebar-img">
+                            <label class="sidebar-text">Users</label>
+                        </div>
+                        <div>
+                            <img src="/images/maintenance-default.svg" alt="Maintenance" class="sidebar-img">
+                            <label class="sidebar-text">Maintenance</label>
+                        </div>
+                        <div>
+                            <img src="/images/setting-default.svg" alt="Settings" class="sidebar-img">
+                            <label class="sidebar-text">Settings</label>
+                        </div>
                     </div>
-                    <div class="profavatar">
-                        <img src="images/profile.png" height="44px" width="44px">
-                    </div>
-                    <div class="username">
-                        <P>John Doe</P>
-
-                    </div>
-                    <div class="moreoptions">
-                        <img src="images/downward-arrow.svg">
-
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="mainbody">
-                <div class="sidebar" width="242px" height="1279px">
-                    <div class="dashboard">
-                        <img src="images/dashboard-active.svg" class="sidebarimg" style="margin-left: 15px;">
-                        <p style="color: red; margin-left: 36px;" class="sidebartext">Dashboard</p>    
-                    </div>
-                    <div class="analysis">
-                        <img src="images/graph-default.svg" class="sidebarimg">
-                        <p class="sidebartext">Analysis</p>
-                    </div>
-                    <div class="inbox">
-                        <img src="images/inbox-default.svg" class="sidebarimg">
-                        <p class="sidebartext">Inbox</p>
-                    </div>
-                    <div class="history">
-                        <img src="images/clock-default.svg" class="sidebarimg">
-                        <p class="sidebartext">History</p>
-                    </div>
-                    <div class="users">
-                        <img src="images/user-default.svg" class="sidebarimg">
-                        <p class="sidebartext">Users</p>
-                    </div>
-                    <div class="maintenance">
-                        <img src="images/maintenance-default.svg" class="sidebarimg">
-                        <p class="sidebartext">Maintenance</p>
-                    </div>
-                    <div class="setting">
-                        <img src="images/setting-default.svg" class="sidebarimg">
-                        <p class="sidebartext">Setting</p>
-                    </div>
-
-                </div>
-                <div class="analysisbody">
-                    <div class="analysistxt">
-                        Analysis
-                    </div>
-                    <div class="form">
-                        <p class="onecolumn">
-                            One Column
-                        </p>
-
-                        <input type="text" class="name" id="name" placeholder="Name"/>
-                             <select class="dropdown" id="dropdown">
+                    <div class="analysisbody">
+                        <div class="analysistxt">
+                            Analysis
+                        </div>
+                        <div class="form">
+                            <p class="onecolumn">
+                                One Column
+                            </p>
+                            
+                            <input type="text" class="name" id="name" placeholder="Name"/>
+                            <select class="dropdown" id="dropdown">
                                 <option>Dropdown</option>
                                 <option>a</option>
                                 <option>b</option>
                                 <option>c</option>
                                 <option>d</option>
-                             </select>
-                             <textarea class="textarea" id="textarea" rows="3" placeholder="Multiple Lines"></textarea>
-                    
-                             <p class="twocolumn">
+                            </select>
+                            <textarea class="textarea" id="textarea" rows="3" placeholder="Multiple Lines"></textarea>
+                            
+                            <p class="twocolumn">
                                 Two Column
                             </p>
-
+                            
                             <div class="twocolumn1">
                                 <input type="text" class="name1" id="name1" placeholder="Name"/>
                                 <fieldset>
@@ -134,23 +106,23 @@
                                 <legend><span class="legendname" >Focus</span></legend>
                                 |
                             </fieldset>
-                           
+                            
                             <fieldset id="pwd">
                             <legend><span class="legendname" >Password</span></legend>
                             <label class="circle">......</label>
                             </fieldset>
-                       
-                        <fieldset id="dotted">
-                        <legend><span class="legendname" >Disabled</span></legend>
+                            
+                            <fieldset id="dotted">
+                                <legend><span class="legendname" >Disabled</span></legend>
                         johndoe
-                        </fieldset>
+                    </fieldset>
                             </div>
 
                             <p class="fourcolumn">
                                 Four Column
                             </p>
                             <div class="column4">
-
+                                
                                 <fieldset id="desg">
                                     <legend><span class="legendname" >Designation</span></legend>
                                     UI Designer
@@ -177,7 +149,7 @@
                                 </div>
                                 <P class="otherele">
                                     Other Design Elements
-                            </P>
+                                </P>
                             <P class="fileupload">
                                 File Upload
                             </P>
@@ -195,7 +167,7 @@
                             <div class="radio1">
                                 <span class="radiobtnicon"></span>
                                 <p class="option1">Option1</p>
-
+                                
                             </div>
                             <div class="radio2">
                                 <span class="radiobtnicon2"></span>
@@ -210,7 +182,7 @@
                             <div class="checkbox1">
                                 <img src="images/check-icon.svg" class="checkbox1icon">
                                 <p class="option1chk">Option1</p>
-
+                                
                             </div>
                             <div class="checkbox2">
                                 <img src="images/checked-icon.svg" class="checkbox2icon">
@@ -227,7 +199,7 @@
                                     <p class="errtxt">
                                         This is an error message
                                     </p>
-
+                                    
                                 </div>
                                 <div class="info">
                                     <img src="images/info-icon.svg" class="snackimg">
@@ -236,8 +208,8 @@
                                     </p>
                                     
                                 </div>
-
-
+                                
+                                
                             </div>
                             <div class="last2">
                                 <div class="warning">
@@ -257,16 +229,16 @@
                                 
                             </div>
                         </div>
-
+                        
                         <div class="call-to-action">
                             <p class="call"> Call to action</p>
                             <div>
-
+                                
                                 <button class="primary">Primary</button>
                                 <button class="secondary">Secondary</button>
                             </div>
                         </div>
-
+                        
                         <div class="tablauout">
                             <p class="tabtxt">
                                 Tabs
@@ -276,7 +248,7 @@
                                     <label class="tab1">
                                         Tab 1
                                     </label>
-
+                                    
                                 </div>
                                 <div class="tab2">
                                     <label class="tab2">
@@ -298,15 +270,16 @@
 
                         </div>
 
-
-            
                         
-
-
+                        
+                        
+                        
+                        
                     </div>
                 </div>
 
                 </div>
             </div>
+        </div>
         </body>
-    </html>
+        </html>

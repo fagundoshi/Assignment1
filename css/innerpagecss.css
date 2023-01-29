@@ -1,95 +1,60 @@
-.navbar{
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
     display: flex;
-    height: 80px;
-    width: 1500px;
+    max-width: 100%;
 }
-
-.searchbar{
-    display: flex;
+#menu-bar{
+    margin: 15px;
 }
-
-.logo{
-    display: flex;
+#logo{
+    position: relative;
+    width: 150px;
+    height: 55px;
 }
-
-.userprof{
-    display: flex;
+#search{
+    position: relative;
+    width: 25px;
+    height: 25px;
+   margin-left: 30px;
 }
-
-.menuicon{
-    padding-top: 12px;
-    padding-left: 29px;
+#search-bar{
+    margin: 20px;
+    width:900px ;
+    border-style: hidden;
 }
-
-.companylogo{
-    padding-top: 15px;
-    margin-left: 30px;
+#noti{
+    margin: 10px;
+    margin-left: 100px;
 }
-
-.searchicon{
-    /* padding-left: 80px; */
-    padding-top: 15px;
-    margin-left: 130px;
+#profile{
+    margin: 10px;
 }
-
-.form-control{
-    margin-top: 10px;
-    margin-left: 10px;
-    padding-left: 7px;
-    width: 700px;
+#down-arrow{
+    margin: 0px;
 }
-
-.bellicon{
-    padding-top: 20px;
-    padding-left: 200px;
-
-}
-
-.profavatar{
-    padding-top: 12px;
-    padding-left: 30px; 
-}
-
-.username{
-    padding-top: 18px;
-    padding-left: 12px;
-    font-size: 16px;
-    color: black;
-}
-
-.moreoptions{ 
-    padding-top: 17px;
-    padding-left: 10px;
-
-}
-
 /* css for sidebar */
 
-.sidebarimg{
-    height: 15px;
-    width: 15px;
-    float: left;
-    margin-left: 45px;
-    margin-top: 3PX;
+.sidebar{
+    margin: 1px;
+}
+.sidebar-img{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    margin: 15px;
+}
+.sidebar-text{
+    margin: 10px;
 }
 
-.sidebartext{
-    margin-left: 65px;
-    margin-top: -3px;
-}
+#active{
+   background-color: #FFF3F4;
+   height: 50px;
+   width: 225px;
 
-.dashboard, .analysis, .inbox, .history, .users, .maintenance, .setting{
-    height: 43px;
-    width: 183px;
-    padding-top: 20px;
-}
-
-
-.dashboard{
-    background-color: #FEF2F4;
-    border-radius: 12px;
-    margin-left: 30px;
-    padding-top: 15px;
 }
 
 .analysisbody{
